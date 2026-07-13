@@ -11,7 +11,6 @@
 // PROPERTY	            USE CASE
 
 // window---------------Main browser object
-// console--------------Console me print
 // innerWidth ----------Website area ki width
 // innerHeight----------Website area ki height
 // outerWidth-----------Pura browser width
@@ -19,6 +18,7 @@
 // scrollX--------------Left/Right scroll
 // scrollY--------------Up/Down scroll
 // localStorage---------Permanent data save
+// console--------------Console me print
 // alert()--------------Message popup
 // confirm()------------OK/Cancel popup
 // prompt()-------------User se input lena
@@ -92,7 +92,7 @@
 
 
 
-// 8. window.scrollY  =>  ko upar se niche kitna scroll kiya.
+// 8. window.scrollY  => Page ko upar se niche kitna scroll kiya.
 
 // console.log(window.scrollY);
 
@@ -397,7 +397,19 @@
 // -----------------------------------------
 
 
-// 6. location.assign()  =>   Dusri website ya page par le jata hai.
+// 6. location.replace()  =>   website ka url replace ker deta hy hm backward nhi ja sakty dubara file open kerni hogi
+
+// location.replace("https://google.com");
+
+
+// output:  Google open ho jayega.
+
+
+// -----------------------------------------
+
+
+
+// 7. location.assign()  =>   Dusri website ya page par le jata hai lkin hm back ja skty hy.
 
 // location.assign("https://google.com");
 
@@ -409,7 +421,7 @@
 
 
 
-// 7. location.reload()  =>   Current page ko dobara load karta hai. Jaise browser ka refresh button dabaya ho.
+// 8. location.reload()  =>   Current page ko dobara load karta hai. Jaise browser ka refresh button dabaya ho.
 
 
 // location.reload();
