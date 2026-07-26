@@ -400,7 +400,7 @@
 // Methods like call(), apply(), and bind() can refer this to any object.
 
 
-we learn this later
+// 18-thisConcepts.js  => watch this for this concepts
 
 
 // ---------------------------------------------------------------------------------------------------------------------------------
