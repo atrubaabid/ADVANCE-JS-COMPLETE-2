@@ -252,6 +252,52 @@
 
 
 // =============================================================
+//* ==========================================
+//* PROMISE-CHAINING
+//* ==========================================
+
+
+// let mycode = (taskNumber, time) => {
+
+//     return new Promise((resolve, reject) => {
+//         setTimeout(() => {
+//             resolve("Task " + taskNumber)
+//         }, time)
+
+//     })
+
+// }
+
+// mycode(1, 1000).then((data) => {
+//     console.log(data);
+//     mycode(2, 1000).then((data) => {
+//         console.log(data);
+//         mycode(3, 1000).then((data) => {
+//             console.log(data);
+//             mycode(4, 1000).then((data) => {
+//                 console.log(data);
+//                 mycode(5, 1000).then((data) => {
+//                     console.log(data);
+//                     mycode(6, 1000).then((data) => {
+//                         console.log(data);
+
+//                     })
+
+//                 })
+
+//             })
+
+//         })
+
+//     })
+
+// })
+
+
+
+
+
+// =============================================================
 
 //* ==========================================
 //* Promise Methods
