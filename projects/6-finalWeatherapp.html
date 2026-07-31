@@ -29,7 +29,7 @@
     }
 
     .weather {
-        background-color: rgba(255, 255, 255, 0.253);
+        background-color: rgba(255, 255, 255, 0.082);
         padding: 3rem;
         border-radius: 20px;
         width: 70%;
@@ -259,6 +259,7 @@
 
             city = cityName.value;
             getWeatherData();
+            cityName.value = "";
 
         })
 
@@ -274,7 +275,7 @@
 
             const { main, name, weather, wind, sys, dt } = data;
 
-            cityName.innerHTML = `${name},${getCountryname(sys.country)}`
+            cityName.innerHTML = `${name}, ${getCountryname(sys.country)}`
 
             dateTime.innerHTML = getdateTime(dt);
 
